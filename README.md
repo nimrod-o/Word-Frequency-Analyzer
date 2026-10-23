@@ -97,9 +97,3 @@ Missing file, folder instead of file, permission error, non-UTF-8 file, empty fi
 - Sets make stopword lookup fast, and `set | set` is a neat way to combine languages.
 - Swahili stopwords only catch standalone words. Grammar attached inside long verbs (`ninaenda`) slips through, which would need stemming, a good next step.
 - Using `utf-8-sig` handles the invisible BOM that Windows Notepad adds.
-
-## Ideas for next time
-
-- Unit tests for `text_processor.py` with `pytest`
-- `--output csv` to export results
-- A basic Swahili stemmer
